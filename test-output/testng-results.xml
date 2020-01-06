@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="2" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83157" started-at="2019-12-25T18:40:16Z" finished-at="2019-12-25T18:41:39Z">
+  <suite name="Suite" duration-ms="85719" started-at="2020-01-03T17:50:25Z" finished-at="2020-01-03T17:51:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="83157" started-at="2019-12-25T18:40:16Z" finished-at="2019-12-25T18:41:39Z">
+    <test name="Test" duration-ms="85719" started-at="2020-01-03T17:50:25Z" finished-at="2020-01-03T17:51:51Z">
       <class name="org.automation.testcases.TC_001_ValidateLoginFunctionality">
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="InitiateDriverInstance" is-config="true" duration-ms="8425" started-at="2019-12-25T18:40:17Z" finished-at="2019-12-25T18:40:25Z">
+        <test-method status="PASS" signature="initiateReport()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="initiateReport" is-config="true" duration-ms="132" started-at="2020-01-03T17:50:25Z" finished-at="2020-01-03T17:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateReport -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="InitiateDriverInstance" is-config="true" duration-ms="8089" started-at="2020-01-03T17:50:25Z" finished-at="2020-01-03T17:50:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="tc001_login_functionality" duration-ms="1848" started-at="2019-12-25T18:40:25Z" data-provider="Excel" finished-at="2019-12-25T18:40:27Z">
+        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="tc001_login_functionality" duration-ms="1758" started-at="2020-01-03T17:50:33Z" data-provider="Excel" finished-at="2020-01-03T17:50:35Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_login_functionality -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="CloseDriverInstance" is-config="true" duration-ms="4347" started-at="2019-12-25T18:40:27Z" finished-at="2019-12-25T18:40:32Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="closeWedDriverInstance" is-config="true" duration-ms="826" started-at="2020-01-03T17:50:35Z" finished-at="2020-01-03T17:50:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="InitiateDriverInstance" is-config="true" duration-ms="7920" started-at="2019-12-25T18:40:32Z" finished-at="2019-12-25T18:40:39Z">
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="InitiateDriverInstance" is-config="true" duration-ms="7863" started-at="2020-01-03T17:50:36Z" finished-at="2020-01-03T17:50:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="tc001_login_functionality" duration-ms="2003" started-at="2019-12-25T18:40:39Z" data-provider="Excel" finished-at="2019-12-25T18:40:41Z">
+        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="tc001_login_functionality" duration-ms="1942" started-at="2020-01-03T17:50:44Z" data-provider="Excel" finished-at="2020-01-03T17:50:46Z">
           <params>
             <param index="0">
               <value>
@@ -51,15 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_login_functionality -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="CloseDriverInstance" is-config="true" duration-ms="158" started-at="2019-12-25T18:40:41Z" finished-at="2019-12-25T18:40:42Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="closeWedDriverInstance" is-config="true" duration-ms="756" started-at="2020-01-03T17:50:46Z" finished-at="2020-01-03T17:50:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="InitiateDriverInstance" is-config="true" duration-ms="8270" started-at="2019-12-25T18:40:42Z" finished-at="2019-12-25T18:40:50Z">
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="InitiateDriverInstance" is-config="true" duration-ms="7923" started-at="2020-01-03T17:50:47Z" finished-at="2020-01-03T17:50:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="tc001_login_functionality" duration-ms="2318" started-at="2019-12-25T18:40:50Z" data-provider="Excel" finished-at="2019-12-25T18:40:52Z">
+        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="tc001_login_functionality" duration-ms="1543" started-at="2020-01-03T17:50:55Z" data-provider="Excel" finished-at="2020-01-03T17:50:56Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_login_functionality -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="CloseDriverInstance" is-config="true" duration-ms="4347" started-at="2019-12-25T18:40:52Z" finished-at="2019-12-25T18:40:57Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="closeWedDriverInstance" is-config="true" duration-ms="4686" started-at="2020-01-03T17:50:56Z" finished-at="2020-01-03T17:51:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="InitiateDriverInstance" is-config="true" duration-ms="7895" started-at="2019-12-25T18:40:57Z" finished-at="2019-12-25T18:41:04Z">
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="InitiateDriverInstance" is-config="true" duration-ms="7961" started-at="2020-01-03T17:51:01Z" finished-at="2020-01-03T17:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="tc001_login_functionality" duration-ms="1368" started-at="2019-12-25T18:41:04Z" data-provider="Excel" finished-at="2019-12-25T18:41:06Z">
+        <test-method status="PASS" signature="tc001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="tc001_login_functionality" duration-ms="1548" started-at="2020-01-03T17:51:09Z" data-provider="Excel" finished-at="2020-01-03T17:51:10Z">
           <params>
             <param index="0">
               <value>
@@ -99,17 +103,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_login_functionality -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@78b1cc93]" name="CloseDriverInstance" is-config="true" duration-ms="142" started-at="2019-12-25T18:41:06Z" finished-at="2019-12-25T18:41:06Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="closeWedDriverInstance" is-config="true" duration-ms="758" started-at="2020-01-03T17:51:10Z" finished-at="2020-01-03T17:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_ValidateLoginFunctionality@21507a04]" name="CloseDriverInstance" is-config="true" duration-ms="300" started-at="2020-01-03T17:51:51Z" finished-at="2020-01-03T17:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriverInstance -->
       </class> <!-- org.automation.testcases.TC_001_ValidateLoginFunctionality -->
       <class name="org.automation.testcases.TC_002_RegisterNewUser">
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="InitiateDriverInstance" is-config="true" duration-ms="7914" started-at="2019-12-25T18:41:06Z" finished-at="2019-12-25T18:41:14Z">
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="InitiateDriverInstance" is-config="true" duration-ms="7539" started-at="2020-01-03T17:51:11Z" finished-at="2020-01-03T17:51:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="tc002_register_new_user" duration-ms="410" started-at="2019-12-25T18:41:14Z" data-provider="Excel" finished-at="2019-12-25T18:41:14Z">
+        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="tc002_register_new_user" duration-ms="356" started-at="2020-01-03T17:51:19Z" data-provider="Excel" finished-at="2020-01-03T17:51:19Z">
           <params>
             <param index="0">
               <value>
@@ -130,15 +138,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc002_register_new_user -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="CloseDriverInstance" is-config="true" duration-ms="179" started-at="2019-12-25T18:41:14Z" finished-at="2019-12-25T18:41:14Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="closeWedDriverInstance" is-config="true" duration-ms="4771" started-at="2020-01-03T17:51:19Z" finished-at="2020-01-03T17:51:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="InitiateDriverInstance" is-config="true" duration-ms="7837" started-at="2019-12-25T18:41:14Z" finished-at="2019-12-25T18:41:22Z">
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="InitiateDriverInstance" is-config="true" duration-ms="7578" started-at="2020-01-03T17:51:24Z" finished-at="2020-01-03T17:51:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="tc002_register_new_user" duration-ms="322" started-at="2019-12-25T18:41:22Z" data-provider="Excel" finished-at="2019-12-25T18:41:23Z">
+        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="tc002_register_new_user" duration-ms="408" started-at="2020-01-03T17:51:31Z" data-provider="Excel" finished-at="2020-01-03T17:51:32Z">
           <params>
             <param index="0">
               <value>
@@ -159,15 +167,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc002_register_new_user -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="CloseDriverInstance" is-config="true" duration-ms="216" started-at="2019-12-25T18:41:23Z" finished-at="2019-12-25T18:41:23Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="closeWedDriverInstance" is-config="true" duration-ms="770" started-at="2020-01-03T17:51:32Z" finished-at="2020-01-03T17:51:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="InitiateDriverInstance" is-config="true" duration-ms="8057" started-at="2019-12-25T18:41:23Z" finished-at="2019-12-25T18:41:31Z">
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="InitiateDriverInstance" is-config="true" duration-ms="8027" started-at="2020-01-03T17:51:32Z" finished-at="2020-01-03T17:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="tc002_register_new_user" duration-ms="384" started-at="2019-12-25T18:41:31Z" data-provider="Excel" finished-at="2019-12-25T18:41:31Z">
+        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="tc002_register_new_user" duration-ms="352" started-at="2020-01-03T17:51:41Z" data-provider="Excel" finished-at="2020-01-03T17:51:41Z">
           <params>
             <param index="0">
               <value>
@@ -188,15 +196,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc002_register_new_user -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="CloseDriverInstance" is-config="true" duration-ms="168" started-at="2019-12-25T18:41:31Z" finished-at="2019-12-25T18:41:31Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="closeWedDriverInstance" is-config="true" duration-ms="745" started-at="2020-01-03T17:51:41Z" finished-at="2020-01-03T17:51:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
-        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="InitiateDriverInstance" is-config="true" duration-ms="7558" started-at="2019-12-25T18:41:31Z" finished-at="2019-12-25T18:41:39Z">
+        </test-method> <!-- closeWedDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="InitiateDriverInstance" is-config="true" duration-ms="7835" started-at="2020-01-03T17:51:42Z" finished-at="2020-01-03T17:51:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateDriverInstance -->
-        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="tc002_register_new_user" duration-ms="320" started-at="2019-12-25T18:41:39Z" data-provider="Excel" finished-at="2019-12-25T18:41:39Z">
+        <test-method status="PASS" signature="tc002_register_new_user(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="tc002_register_new_user" duration-ms="356" started-at="2020-01-03T17:51:49Z" data-provider="Excel" finished-at="2020-01-03T17:51:50Z">
           <params>
             <param index="0">
               <value>
@@ -217,10 +225,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc002_register_new_user -->
-        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@6646153]" name="CloseDriverInstance" is-config="true" duration-ms="143" started-at="2019-12-25T18:41:39Z" finished-at="2019-12-25T18:41:39Z">
+        <test-method status="PASS" signature="closeWedDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_RegisterNewUser@143640d5]" name="closeWedDriverInstance" is-config="true" duration-ms="765" started-at="2020-01-03T17:51:50Z" finished-at="2020-01-03T17:51:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseDriverInstance -->
+        </test-method> <!-- closeWedDriverInstance -->
       </class> <!-- org.automation.testcases.TC_002_RegisterNewUser -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
